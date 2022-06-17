@@ -165,47 +165,6 @@ void RSA::ModPhi(int128_t &v,int128_t p)
     }
     
 }
-
-/*
-int128_t* RSA::CifrarF()
-{
-    string m;
-    cout<<endl<<"------CIFRAR-------"<<endl;
-    cout<<"Digite frase: ";getline(cin,m);
-    
-    tam=(int)size(m);
-    int128_t *c=new int128_t[tam];
-    for(int i=0;i<tam;i++)
-    {
-        c[i]=EXPMOD((int128_t)m[i], e, n);
-    }
-    for(int i=0;i<tam;i++)
-    {
-        cout<<c[i]<<" ";
-    }
-    cout<<endl;
-    return c;
-}
-
-char* RSA::DescifrarF()
-{
-    //int tam=sizeof(C)/sizeof(C[0]); => ERA el tamaño del PUNTERO!!!!!
-    char* mn=new char[tam];
-    
-    cout<<endl<<"------DESCIFRAR-------"<<endl;
-    for(int i=0;i<tam;i++)
-    {
-        mn[i]=(char)EXPMOD(C[i], d, n);
-    }
-    for(int i=0;i<tam;i++)
-    {
-        cout<<mn[i];
-    }
-    cout<<endl;
-    return mn;
-}
-*/
-
 void RSA::TablaRSA()
 {
     cout<<"---------------------TABLA-RSA64---------------------"<<endl;

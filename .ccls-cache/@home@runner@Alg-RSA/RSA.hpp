@@ -18,11 +18,6 @@ class RSA
     int128_t n; // n = p*q, clave publica
     int128_t phin; // phi(n)
     
-    // FRASE
-    //char* M; // Mensaje Original
-    //int128_t* C; // Mensaje Cifrado
-    //int tam; // Tamaño mensaje
-
     // Algoritmos Utiles
     
     void Enemenos1(int128_t &t,int128_t &u, int128_t v);
@@ -51,9 +46,6 @@ class RSA
 
     //
     
-    //int128_t* CifrarF();
-    //char* DescifrarF();
-    
     void RSA_KEY_GENERATOR();
     int128_t CifrarL(int128_t m);
     int128_t DescifrarL(int128_t c);
@@ -69,8 +61,6 @@ public:
         phin=PhiN();
         e=GenerarE();
         d=InversoE();
-        //C=Cifrar();
-        //M=Descifrar();
     }
     ~RSA()
     {

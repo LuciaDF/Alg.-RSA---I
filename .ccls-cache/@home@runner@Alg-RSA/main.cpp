@@ -4,8 +4,7 @@
 
 
 int main()
-{
-  
+{ 
     RSA u1;
     
     u1.Menu();
