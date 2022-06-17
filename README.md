@@ -92,7 +92,7 @@ Verifica que un numero de *b* bits sea primo. Con la ayuda de Miller Rabin, si e
    <br />
     <br />
 
-### Algoritmo RSA
+### *Algoritmo RSA*
 
 Las siglas RSA proviene de sus creadores: **Ron Rivest**, **Adi Shamir** y **Leonard Adleman**. Publicado en 1979 como respuesta a un problema abierto de **Diffie – Hellman** acerca de un nuevo sistema criptográfico de **clave pública**. El algoritmo consiste en que cada usuario tiene su propio clave publica y privada, cuando desean comunicarse el emisor cifrará con la clave publica y el receptor descifrará usando la clave privada según corresponda el caso.  Su seguridad radica en la **factorización de números enteros**, por cada usuario se generan dos números primos y al multiplicarlos se genera lo que es una de las llaves públicas. 
 
@@ -100,10 +100,10 @@ Las siglas RSA proviene de sus creadores: **Ron Rivest**, **Adi Shamir** y **Leo
     <br />
 
 
-#### Clave Publica:
-#### Clave Privada:
-#### Cifrado:
-#### Descifrado:
+#### *Clave Publica*:
+#### *Clave Privada*:
+#### *Cifrado*:
+#### *Descifrado*:
 
 ## 4.- Pseudocodigo:
 
