@@ -86,16 +86,3 @@ def gen_d(a,b):
     return m % b
 
 
-p = randomgen_primos(4)
-q = randomgen_primos(4)
-n = p * q
-fi = gen_fi(p,q)
-e = gen_e(fi)
-d = gen_d(e,fi)
-
-print("p = ", p)
-print("q = ", q)
-print("n = ", n)
-print("fi = ", fi)
-print("e = ", e)
-print ("d = ",d)
