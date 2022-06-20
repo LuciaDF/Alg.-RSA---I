@@ -21,5 +21,5 @@ print("e = ", e)
 print ("d = ",d)
 
 print(cifrar(m,e,n))
-print(descifrar(m,e,n))
+print(descifrar(m,d,n))
 
