@@ -100,10 +100,14 @@ Las siglas RSA proviene de sus creadores: **Ron Rivest**, **Adi Shamir** y **Leo
     <br />
 
 
-#### *Clave Publica*:
-#### *Clave Privada*:
-#### *Cifrado*:
-#### *Descifrado*:
+#### *Clave Publica*: Consiste en el módulo n y el exponente público (o cifrado) e.
+#### *Clave Privada*: Contiene el elemento privado d, p , q y  ϕ( n ) que tambien deben ser secretos.
+#### *Cifrado*: Para enviar el mensaje (Bob a Alice) primero se debe converte este (mensaje) a un número m, luego se aplica el cifrado usando la clave pública de Alice e. 
+![image](https://user-images.githubusercontent.com/85766893/175125384-bb8678e0-144e-49a6-840b-574338922658.png)
+
+#### *Descifrado*: El mensaje puede ser recuperado, usando d como exponente. 
+![image](https://user-images.githubusercontent.com/85766893/175125888-74a7e9f8-5625-4063-96ea-b6b389e78cb8.png)
+
 
 ## 4.- Pseudocodigo:
 
